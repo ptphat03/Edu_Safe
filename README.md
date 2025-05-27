@@ -2,6 +2,7 @@
 
 # Clone dự án
 git clone https://github.com/ptphat03/Edu_Safe.git
+
 cd Edu_Safe
 
 # Cài backend
