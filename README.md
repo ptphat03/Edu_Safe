@@ -11,3 +11,23 @@ or
 
 venv\Scripts\Activate.ps1
 
+Run backend:
+
+cd backend
+
+uvicorn app.main:app --reload
+
+
+Run frontend:
+
+cd frontend
+
+npm start
+
+
+Run all:
+
+cd Edu_Safe
+
+npm run dev
+
