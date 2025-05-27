@@ -1,16 +1,13 @@
 # Edu_Safe
 
-# Clone dự án
+# git clone
 git clone https://github.com/ptphat03/Edu_Safe.git
 
 cd Edu_Safe
 
-# Cài backend
-cd backend
-pip install -r requirements.txt
-uvicorn main:app --reload
+venv\Scripts\activate.bat
 
-# (Trong tab khác) Chạy frontend
-cd ../frontend
-npm install
-npm start
+or
+
+venv\Scripts\Activate.ps1
+

@@ -5,7 +5,7 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-DATABASE_URL = os.getenv("DATABASE_URL", "sqlite:///./attendance_db.sqlite3")
+DATABASE_URL = os.getenv("DATABASE_URL", "sqlite:///./test.sqlite3")
 
 engine = create_engine(
     DATABASE_URL, connect_args={"check_same_thread": False}
