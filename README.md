@@ -53,8 +53,3 @@ npm run dev
 * Frontend sử dụng Node.js, chạy bằng `npm start`.
 * `npm run dev` được cấu hình để chạy đồng thời backend và frontend (thường dùng package như `concurrently` hoặc tương tự).
 
----
----
-
-Bạn có muốn mình giúp thêm phần hướng dẫn setup cụ thể hoặc giải thích thêm phần nào không?
-```
